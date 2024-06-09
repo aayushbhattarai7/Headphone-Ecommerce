@@ -1,0 +1,79 @@
+@charset "UTF-8";
+*{
+margin: 0;
+padding: 0;
+font-family: poppins;
+}
+#signupBox{
+box-shadow: 4px 4px 4px 4px lightgray;
+height: auto;
+max-width: 360px;
+justify-content: center;
+margin: 130px auto;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius:7px;
+}
+
+#signupBox h1{
+    margin-bottom: 20px;
+    padding-left: 80px;
+}
+
+#signupBox input[type=text]{
+    display: flex;
+    margin-bottom: 25px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px; 
+    border: 1px solid black;
+    padding-left: 50px;
+}
+
+
+#signupBox input[type=password]{
+    display: flex;
+    margin-bottom: 25px;
+    width: 80%;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px; 
+    border: 1px solid black;
+    padding-left: 50px;
+}
+
+
+#signupBox button[type = submit]{
+    width: 25%;
+    padding: 8px;
+    background-color: #59F11C;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    margin-left: 100px;
+}
+#signupBox a{
+    text-decoration: none;
+}
+#loginBox img{
+    margin-bottom: 3px;
+    width: 150px;
+    margin-left: 30px;
+    height: 15vh;
+}
+#signupBox button:hover{
+    transform: scale(1.10);
+    color: white;
+}
+
+#signupImg{
+box-shadow: 4px 4px 4px 4px lightgray;
+margin: 100px auto;
+max-width: 360px;
+    
+}
